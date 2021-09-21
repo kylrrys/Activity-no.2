@@ -8,7 +8,9 @@ print("")
 print("Average Grade is =",str(av))
 print("")
 print("")
+
 if (av>=75):
-    print("The Student passed")
+	print(" PASSED! ")
 else:
-    print("The Student failed")
+	print(" FAILED! ")
+
