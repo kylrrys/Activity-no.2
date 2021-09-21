@@ -10,10 +10,10 @@ print("")
 print("")
 if (av<=60):
     print("Grade Rating is F")
-    print("Failed!)
+    print("Failed!")
 elif (av>=61 and av<=70):
     print("Grade Rating is E")
-    print("Failed!)
+    print("Failed!")
 elif (av>=71 and av<=79):
     if av>=75:
         print("Grade Rating is D")
@@ -23,11 +23,11 @@ elif (av>=71 and av<=79):
         print("Failed!")
 elif (av>=80 and av<=89):
     print("Grade Rating is C")
-    print("Passed!)
+    print("Passed!")
 elif (av>=90 and av<=98):
     print("Grade Rating is B")
-    print("Passed!)
+    print("Passed!")
 else:
     print("Grade Rating is A")
-    print("Passed!)
+    print("Passed!")
 
