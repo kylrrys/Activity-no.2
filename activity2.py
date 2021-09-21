@@ -10,14 +10,24 @@ print("")
 print("")
 if (av<=60):
     print("Grade Rating is F")
+    print("Failed!)
 elif (av>=61 and av<=70):
     print("Grade Rating is E")
+    print("Failed!)
 elif (av>=71 and av<=79):
-    print("Grade Rating is D")
+    if av>=75:
+        print("Grade Rating is D")
+        print("Passed!")
+    else:
+        print("Grade Rating is D")
+        print("Failed!")
 elif (av>=80 and av<=89):
     print("Grade Rating is C")
+    print("Passed!)
 elif (av>=90 and av<=98):
     print("Grade Rating is B")
+    print("Passed!)
 else:
     print("Grade Rating is A")
+    print("Passed!)
 
